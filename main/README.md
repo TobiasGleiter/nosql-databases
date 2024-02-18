@@ -1,6 +1,6 @@
 # 📑 Key Value Datase
 
-_Key concepts:_
+_Key concepts: key-value, alternatives_
 
 ## 💥 What are Key-Value Data stores?
 
