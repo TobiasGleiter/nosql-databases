@@ -16,3 +16,7 @@ Explore more [here](./literature/README.md).
 
 - [What are Key-Value Data stores?](./main/README.md#)
 - [Alternatives to Key-Value NoSql](./main/README.md#)
+
+Examples:
+
+- [How can I use Redis with Go(lang)](./examples/README.md)
