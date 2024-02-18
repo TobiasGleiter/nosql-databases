@@ -14,4 +14,5 @@ Explore more [here](./literature/README.md).
 
 ## 🦆 Questions Addressed
 
--
+- [What are Key-Value Data stores?](./main/README.md#)
+- [Alternatives to Key-Value NoSql](./main/README.md#)
