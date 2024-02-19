@@ -2,7 +2,7 @@
 
 In today's fast-paced technological landscape, where every millisecond counts, Redis stands out as a beacon of efficiency, thanks to its low-latency performance driven by its in-memory architecture.
 
-✅ Redis - Use Cases
+## ✅ Redis - Use Cases
 
 Let's explore some of the common use cases for Redis as highlighted by AWS.
 
