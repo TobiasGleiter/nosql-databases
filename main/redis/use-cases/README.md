@@ -1,4 +1,4 @@
-# 🆙 Use Cases
+# 🆙 Redis Use Cases
 
 ## 💸 Were to use Redis?
 
@@ -15,6 +15,7 @@ This advantages led to the following Use Cases:
 - Real-time analytics
 
 In the next sections we will explain in detail about the Use Cases.
+These are just Use Cases listed by Amazon AWS, there are definitely many other Use Cases but these are common used ones.
 
 ## 🍷 Caching
 
