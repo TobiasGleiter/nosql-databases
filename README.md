@@ -21,4 +21,4 @@ Explore more [here](./literature/README.md).
 
 Examples:
 
-- [How can I use Redis with Go(lang)](./examples/README.md)
+- [Connect with Redis clients](./examples/README.md)
