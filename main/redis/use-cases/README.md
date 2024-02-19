@@ -18,6 +18,13 @@ In the next sections we will explain in detail about the Use Cases.
 
 ## 🍷 Caching
 
+Redis can be used as a cache and is a great choice because of the highly available in-memory cache. Redis as cache can decrease data access latency. increase throughput, and ease of load off your relational or NoSQL database and application. Two reasons, why Redis is realy good for caching data (1):
+
+- can serve frequently requested times at sub-millisecon respons times
+- enables easily scale for higher loads without growing the costlier backend.
+
+Examples for caching are: Database query results caching, persostent session caching, web page caching, and caching of frequently used obects such as images, files, and metadata. (1)
+
 ## 💬 Chat, messageing, and queues
 
 ## 🦢 References
