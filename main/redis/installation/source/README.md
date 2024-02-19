@@ -1,47 +1,48 @@
-# Install Redis from Source
+# Installing Redis from Source
 
-Redis can be installed from source on variety of plattforms and operation systems inluding Linux and macOS.
+Redis can be installed from source on various platforms like Linux and macOS.
 
-## Installation process
+## Installation Steps:
 
-1. Downloading the source files
-2. Compiling Redis
-3. Starting and stopptin Redis n the foreground
+1. **Download the Source Files:**
 
-## 1. Downloading the source files
+   - Retrieve the source files from Redis:
+     ```
+     wget https://download.redis.io/redis-stable.tar.gz
+     ```
 
-Download the source files from Redis:
+2. **Compile Redis:**
 
-`wget https://download.redis.io/redis-stable.tar.gz`
+   - Extract the files and compile Redis:
 
-## 2. Compiling Redis
+     ```
+     tar -xzvf redis-stable.tar.gz
+     cd redis-stable
+     make
+     ```
 
-After run the tarbal, change the root directory, and then run **make**:
+   - For TLS support, install OpenSSL development libraries and compile with:
 
-```
-tar -xzvf redis-stable.tar.gz
-cd redis-stable
-make
-```
+     ```
+     make BUILD_TLS=yes
+     ```
 
-If TLS necessary you need to installe the OpenSSL development libaries and then run:
+   - After successful compilation, Redis binaries will be available in the `src` directory, including:
 
-`make BUILD_TLS=yes`
+     - `redis-server`: Redis Server
+     - `redis-cli`: Command-line interface for Redis
 
-If the compile succeeds ✅ you will find several Redis bianries in the src directory, including:
+   - To install these binaries in `/usr/local/bin`, use:
+     ```
+     sudo make install
+     ```
 
-- **redis-server**: the Redis Server itself
-- **redis-cli**: is the command line interface utility to talk with Redis
+3. **Starting and Stopping Redis:**
 
-To instal these binaries in `/usr/local/bin`, run:
+   - Start Redis in the foreground:
 
-`sudo make install`
+     ```
+     redis-server
+     ```
 
-## 3. Starting and stopping Redis in the foreground
-
-Start Redis by running:
-
-`redis-server`
-
-If succesful, you will see the startup logs for Redis.
-Stop Redis with `Ctrl-C`
+   - To stop Redis, press `Ctrl-C`.

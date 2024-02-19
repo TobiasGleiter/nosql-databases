@@ -8,7 +8,7 @@ This installation guide is similar to the Guide from [Redis](https://redis.io/do
 
 The Redis installation depends on your operating system, pick your system:
 
-- [Install Redis from Source]()
+- [Install Redis from Source](./source/README.md)
 - [Install Redis on Linux]()
 - [Install Redis on macOS]()
 - [Install Redis on Windows]()
