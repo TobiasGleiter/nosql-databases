@@ -17,7 +17,7 @@ Explore more [here](./literature/README.md).
 - [What are Key-Value Data stores?](./main/README.md#)
 - [Alternatives to Key-Value NoSql](./main/README.md#)
 - [How to install Redis?](./main/redis/installation/README.md)
-- [Were to use Redis?](./main/redis/use-cases/README.md)
+- [Redis - Use Cases](./main/redis/use-cases/README.md)
 
 Examples:
 
