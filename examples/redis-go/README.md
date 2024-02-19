@@ -1,6 +1,6 @@
-# Use Redis with Go
+# 🚀 Use Redis with Go
 
-## Checklist to setup redis yourself
+## 📋 Checklist to setup redis yourself
 
 1. Setup your go project `go mod init github.com/my/repo`
 2. Run `go get github.com/redis/go-redis/v9` to install go for redis
