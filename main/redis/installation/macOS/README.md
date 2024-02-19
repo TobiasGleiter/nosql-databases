@@ -1,6 +1,8 @@
+# Install Redis on macPO
+
 To install and manage Redis on macOS using Homebrew, follow these steps:
 
-**Prerequisites:**
+## Prerequisites
 
 Ensure Homebrew is installed. Check by running:
 
@@ -10,7 +12,7 @@ brew --version
 
 If not installed, follow Homebrew installation instructions.
 
-**Installation:**
+## Installation
 
 Run in Terminal:
 
