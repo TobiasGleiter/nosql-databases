@@ -1,6 +1,6 @@
 # 🚀 Use Redis with Python
 
-## 📋 Checklist to setup redis yourself
+## 📋 Checklist
 
 1. Setup virtual environment (recomended): `python -m venv ./venv`
 2. Activate the virtual environment:
