@@ -1,4 +1,4 @@
-# 📦 NoSql-Database: Key Value DB
+# 📦 NoSql-Databases
 
 ## 🤖 Introduction
 
@@ -13,6 +13,8 @@ This README serves as a starting point, guiding you through the project step by 
 Explore more [here](./literature/README.md).
 
 ## 🦆 Questions Addressed
+
+Key-Value databases:
 
 - [What are Key-Value Data stores?](./main/README.md#)
 - [Alternatives to Key-Value NoSql](./main/README.md#)
