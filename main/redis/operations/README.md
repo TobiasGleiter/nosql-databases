@@ -1,6 +1,17 @@
-# Operations
+# 🎤 Operations
 
-# Working with the Redis cli
+## 📀 Redis data types
+
+Redis supports different types of data e.g. json, lists, string. IN the folloing we explain three used data types:
+
+- [strings](./strings/README.md)
+- [json](./json/README.md)
+- [lists](./lists/README.md)
+
+Other data types are sets, hashes, sorted sets, streams, geospatial, bitmaps, bitfields, probabilistic, and time series.
+Find more about them on the [official documentation](https://redis.io/docs/data-types/)
+
+## 📋 Working with the Redis cli
 
 ### Command Line Usage
 
@@ -60,17 +71,6 @@ redis-cli --csv LRANGE mylist 0 -1
 ```
 
 The output is: "d","c","b","a"
-
-## Redis data types
-
-Redis supports different types of data e.g. json, lists, string. IN the folloing we explain three used data types:
-
-- [strings](./strings/README.md)
-- [json](./json/README.md)
-- [lists](./lists/README.md)
-
-Other data types are sets, hashes, sorted sets, streams, geospatial, bitmaps, bitfields, probabilistic, and time series.
-Find more about them on the [official documentation](https://redis.io/docs/data-types/)
 
 ## Redis commands
 

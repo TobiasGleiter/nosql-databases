@@ -18,9 +18,14 @@ Key-Value databases:
 
 - [What are Key-Value Data stores?](./main/README.md#)
 - [Alternatives to Key-Value NoSql](./main/README.md#)
+
+**Redis:**
+
 - [How to install Redis?](./main/redis/installation/README.md)
 - [Redis - Use Cases](./main/redis/use-cases/README.md)
+- [Json, lists and string with Redis](./main/redis/operations/README.md)
+- [Working with the Redis cli](./main/redis/operations/README.md)
 
 Examples:
 
-- [Connect with Redis clients](./examples/README.md)
+- [Redis - connect](./examples/README.md)
