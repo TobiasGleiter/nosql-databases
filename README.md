@@ -23,8 +23,8 @@ Key-Value databases:
 
 - [How to install Redis?](./main/redis/installation/README.md)
 - [Redis - Use Cases](./main/redis/use-cases/README.md)
-- [Json, lists and string with Redis](./main/redis/operations/README.md)
-- [Working with the Redis cli](./main/redis/operations/README.md)
+- [Json, lists and string with Redis](./main/redis/operations/README.md#-redis-data-types)
+- [Working with the Redis cli](./main/redis/operations/README.md#-working#-with-the-redis-cli)
 
 Examples:
 
