@@ -11,6 +11,7 @@
   "author": "Tobias Gleiter (https://tobiasgleiter.de/)",
   "license": "MIT",
   "dependencies": {
+    "@redis/json": "^1.0.6",
     "redis": "^4.6.13"
   },
   "type": "module"
